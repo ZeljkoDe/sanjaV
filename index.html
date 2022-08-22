@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanja Vukmirovic</title>
+
+    <link rel="stylesheet" href="splide.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <span class="triangle"></span>
+    <main class="main-content">
+        <header class="desktop">
+            <h1>Sanja Vukmirovic</h1>
+            <img class="hambuerger"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAKElEQVRIiWNgGAXDHjAisf/TwmwmKhs6CgYhGE1Fo4ByMJqKRsEQAADWCQMKYvEFtQAAAABJRU5ErkJggg==">
+
+            <nav class="main-nav">
+                <ul>
+                    <li class="active"><a href="index.html">početna</a></li>
+                    <li><a href="os.html">osnovna škola</a></li>
+                    <li><a href="ss.html">srednja škola</a></li>
+                    <li><a href="zanimljivosti.html">zanimljivosti</a></li>
+                    <li><a href="biografija.html">biografija</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <header class="mobile">
+            <h1>Sanja Vukmirovic</h1>
+
+            <nav class="main-nav">
+                <ul>
+                    <li class="active"><a href="index.html">početna</a></li>
+                    <li><a href="os.html">osnovna škola</a></li>
+                    <li><a href="ss.html">srednja škola</a></li>
+                    <li><a href="zanimljivosti.html">zanimljivosti</a></li>
+                    <li><a href="biografija.html">biografija</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section>
+            <div class="splide slider" data-splide='{"type":"loop","autoplay":"true"}'
+                aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <div class="splide__list">
+                        <img class="splide__slide" src="./img/1[858].png" alt="">
+                        <img class="splide__slide" src="./img/2[860].jpg" alt="">
+                        <img class="splide__slide" src="./img/3[859].jpg" alt="">
+                        <img class="splide__slide" src="./img/4[861].png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="text">
+                <p>Ko se igre boji, bolje da ne broji, <br>
+                    ko da razmišlja neće, neće znati šta je manje, a šta veće, <br>
+                    ko se ne raduje olovci, neće znati šta su razlomci, <br>
+                    ko ne ume tremu da savlada, neće znati kad funkcija opada, <br>
+                    ko ne zna šta je skup, a šta razlika, reći će da je teška matematika, <br>
+                    a to istina zapravo nije, u malim štosovima tajna se krije, <br>
+                    više truda, malo sreće i još malo volje, i rešavaće se zadaci lakše i bolje.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="splide.min.js"></script>
+    <script>
+        new Splide('.splide').mount();
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
